@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registeration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+	<center>
+		<h1>Registeration for Event</h1>
+        <form onsubmit="return validateForm()" name="myForm" method="post" required>
+		<div class="col-lg-4 col-sm-8 col-xs-11 name_div">
+            <h3>Name</h3>
+			<input type="text" id="name_input" name="fname" class="form_control input w3-input w3-animate-input" placeholder="Full Name">
+			<br>
+		</div>
+
+		<div class="col-lg-4 col-sm-8 col-xs-11 gender_div">
+            <h3>Gender</h3>
+			<input type="radio" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="gender" value="prefer_not_to_say">
+            <label for="prefer_not_to_say">Prefer not to say</label>
+		</div>
+		<br>
+
+        <div class="col-lg-4 col-sm-8 col-xs-11 enrollment_div">
+            <h3>Enrollment Number</h3>
+			<input type="text" name="ename" id="enroll_input" class="form_control input w3-input w3-animate-input" placeholder="Your Enrollment Number">
+			<br>
+		</div>
+
+        <div class="col-lg-4 col-sm-8 col-xs-11 course_div">
+            <h3>Course Name and Year</h3>
+			<input type="text" name="cname" id="course_input" class="form_control input w3-input w3-animate-input" placeholder="Your Course Name and Year">
+			<br>
+		</div>
+
+        <div class="col-lg-4 col-sm-8 col-xs-11 phone_div">
+            <h3>Phone Number</h3>
+			<input type="number" name="pname" id="phone_input" class="form_control input w3-input w3-animate-input" placeholder="Your Phone Number">
+			<br>
+		</div>
+
+        <div class="col-lg-4 col-sm-8 col-xs-11 email_div">
+            <h3>Email</h3>
+			<input type="email" name="emname" id="course_input" class="form_control input w3-input w3-animate-input" placeholder="Your Email">
+			<br>
+		</div>
+
+        <div class="col-lg-4 col-sm-8 col-xs-11 submit_div">
+			<input type="submit" id="submit" class="form_control input w3-input w3-animate-input w3-panel w3-border w3-hover-border-black">
+			<br>
+		</div>
+
+        </form>
+	</center>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.input
+{
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	line-height: 20px;
+	width: 250px;
+	height: 50px;
+	color: #fff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+    
+}
+
+body
+{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, #a694e9 100%);
+}
+
+input:focus
+{
+    border: 2px solid #dfcdcd;
+}
+
+.name_div , .gender_div, .enrollment_div, .course_div, .phone_div, .email_div, .submit_div
+{
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+
+h1 
+{
+    text-shadow: 0 0 3px plum, 0 0 5px #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    margin: 4%;
+  }
+
+
